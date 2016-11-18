@@ -1,0 +1,21 @@
+package com.silentpeople.ex1_2;
+
+import java.util.Scanner;
+
+public class calculatorMain {
+	public static void main(String[] args) {
+		System.out.println("Input:");
+		Scanner scan = new Scanner(System.in);
+		
+		String inputVal = scan.nextLine();
+		
+		System.out.println(inputVal);
+		
+		String [] chkvals = inputVal.split("[+-\\*/]");
+		System.out.println(chkvals[0]);
+		System.out.println(chkvals[1]);
+		System.out.println(chkvals[2]);
+		
+	}
+	
+}

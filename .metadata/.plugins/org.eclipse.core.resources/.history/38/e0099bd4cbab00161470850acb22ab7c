@@ -1,0 +1,15 @@
+package com.silentpeople.ex1_2;
+
+import java.util.Scanner;
+
+public class calculatorMain {
+	public static void main(String[] args) {
+		System.out.println("Input:");
+		Scanner scan = new Scanner(System.in);
+		
+		String inputval = scan.nextLine();
+		
+		System.out.println(inputval);
+	}
+	
+}

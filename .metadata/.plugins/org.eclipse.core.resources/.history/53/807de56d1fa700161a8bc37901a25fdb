@@ -1,0 +1,37 @@
+package com.silentpeople.exam1;
+
+public class class1 {	// 클래스 선언(클래스명: class1)
+
+	public static void main(String[] args){		// main 메소드(Method)
+		byte salary = (byte)2400000;
+		long salary2 = 2200000000L;
+	//	short salary3 = 33000;
+		char name = 'a';
+		float ratio = (float)1.8;
+		float ratio2 = 1.8F;
+		double ratio3 = 1.234859430946904509959594599595955964412321345698895611155605808075804806780578056808430683;
+		String str1 = "Hello"; // String class
+		String str2 = "Hello";
+		String str = "apple";
+		boolean startsWith = str.startsWith("a");
+		
+		String str3 = "test";
+		boolean endsWith = str.endsWith(str3);
+		System.out.println("endsWith: "+ endsWith);
+		
+		
+		System.out.println("startsWith: " + startsWith);
+		
+		
+		
+		System.out.println("Hello World!");
+		System.out.println("순시리는 이렇게 말했다. \"난 피해자다.\" 그랬다");
+		System.out.println("나는 지금 집에 \n \f \b 가구 \t 가고 싶다");
+		System.out.println("salary="+salary);
+		System.out.println("salary="+salary2);
+		System.out.println("10 % 3 = "+10%3);
+		System.out.println(str1+" == "+str2+" : "+str1.equals(str2));
+		
+	}
+	
+}

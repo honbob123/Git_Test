@@ -1,0 +1,22 @@
+package com.silentpeople.ex1;
+
+import java.util.Scanner;
+
+public class testclass {
+	String name;
+	int age;
+	
+	public testclass(){
+		
+	}
+	
+	public void printAge() {
+		System.out.println(age);
+	}
+	
+	public void scanprintname() {
+		Scanner sc = new Scanner(System.in);
+		name = sc.nextLine();
+		System.out.println(name);
+	}
+}

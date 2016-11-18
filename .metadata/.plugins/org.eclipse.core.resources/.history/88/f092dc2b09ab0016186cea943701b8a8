@@ -1,0 +1,10 @@
+package com.silentpeople.ex1;
+
+public class testclass {
+	String name;
+	int age;
+	
+	public testclass(){
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.silentpeople.exam1;
+
+public class class1 {	// 클래스 선언(클래스명: class1)
+
+	public static void main(String[] args){		// main 메소드(Method)
+		
+		System.out.println("Hello World!");
+	}
+	
+}

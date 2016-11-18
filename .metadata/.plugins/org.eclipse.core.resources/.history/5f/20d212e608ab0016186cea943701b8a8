@@ -1,0 +1,13 @@
+package com.silentpeople.ex1;
+
+public class mainClass {
+
+	public static void main(String [] args){
+		testclass tclass1;
+		tclass1 = new testclass();
+		
+		tclass1.age = 10;
+		System.out.println(age);
+	}
+	
+}

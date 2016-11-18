@@ -1,0 +1,13 @@
+package com.silentpeople.ex1;
+
+public class testclass {
+	String name;
+	int age;
+	
+	
+	public void testMethod(){
+		String address;
+		String phone;
+		int price;
+	}
+}
